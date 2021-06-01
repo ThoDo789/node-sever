@@ -56,3 +56,38 @@ main.hbs => {{>header}} {{{body}}} {{>footer}}
 
 --sass : npm install node-sass --save-dev
 ## use bootstrap
+
+## basic routing
+ app.get('/',function(req,res){ res.render('home')})
+## GET method
+
+## query parameters
+ passing data to URL
+<form  method="GET" action="/news"> passing data to news page
+ 
+
+ ## POST request data from client to server
+
+## MVC 
+                                            <=                      
+    req client => server =>router=> dispatch =>controller=> model( mySQL,mongoFB)
+                                                      └──view                  
+
+
+
+## Controllers && routers
+
+
+ app.get('/',function(req,res){ res.render('home')})
+  |       |       |
+  |       |       └── controller   
+  |       |
+  |   dispatch     
+  |
+  |
+  | 
+  |
+  └── action
+
+
+  
